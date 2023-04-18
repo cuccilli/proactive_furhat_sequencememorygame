@@ -7,3 +7,11 @@ Il progetto permette di eseguire il gioco "*Sequence Memory Game*" con l'assiste
 - La cartella *json* contiene i file utilizzati per settare la lingua dell'applicativo (italiano/inglese).
 - I file *svc_* rappresentano i classificatori SVM implementati per la predizione di quale assistenza fornire, quando, e con quale confidenza.
 - I file *id_* rappresentano i diagrammi di influenza implementati per decidere quale assistenza fornire, quando, e con quale confidenza.
+- Da installare: 
+  - pip install flask (versione 2.2.2)
+  - pip install pyagrum (0.22.8)
+  - pip install furhat_remote_api
+  - pip install scikit-learn (1.1.3)
+  
+- Per eseguire:
+  python third_main.py

@@ -15,3 +15,7 @@ Il progetto permette di eseguire il gioco "*Sequence Memory Game*" con l'assiste
   
 - Per eseguire:
   python third_main.py
+
+Nota Bene: Per eseguire il codice, è necessario creare un'istanza della classe FurhatRemoteAPI fornendo l'indirizzo reale del robot o l'SDK che esegue il robot virtuale. Per modificare il valore, controllate la dichiarazione nel file _main_:
+
+furhat = FurhatRemoteAPI(host="localhost")
